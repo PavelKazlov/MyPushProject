@@ -3557,6 +3557,7 @@ __metadata:
     eslint: ^8.19.0
     expo: ^51.0.0
     expo-constants: ~16.0.2
+    expo-device: ~6.0.2
     expo-notifications: ~0.28.9
     jest: ^29.6.3
     prettier: 2.8.8
@@ -5749,6 +5750,17 @@ __metadata:
   peerDependencies:
     expo: "*"
   checksum: 59e0ceeef9d6f863730a940b1d2b1117b1c55a1cf9b71557e6e067fa06b116e703e4848e9ad5e223aca86715a03d91464797e2308c1d9fc8530b5a24f4d01902
+  languageName: node
+  linkType: hard
+
+"expo-device@npm:~6.0.2":
+  version: 6.0.2
+  resolution: "expo-device@npm:6.0.2"
+  dependencies:
+    ua-parser-js: ^0.7.33
+  peerDependencies:
+    expo: "*"
+  checksum: f2399848c0f1b3139b2b8647154be0cea9bf984c6bfe98d308d9c8cf38541e9400ef785711efc779e6366b724c99240bb605f42d2411bfe1efcb9fd5da4cdbcd
   languageName: node
   linkType: hard
 
@@ -11355,6 +11367,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: d26b6ba97b6d163c55dbdffd9bbb4c211667ebebc743accfeb2c8c0154aace7afd097b51165a72a5bad2cf65a4612259344ff60f8e642362aa1695c760d303ac
+  languageName: node
+  linkType: hard
+
+"ua-parser-js@npm:^0.7.33":
+  version: 0.7.38
+  resolution: "ua-parser-js@npm:0.7.38"
+  checksum: e9cbf26c0029746b1be4672280b4a88183787297a90b645a30a79bafde3c46542c7d80df9007092f7d76f80181da7ad9722af7f0d87c7df706de3ab833e69384
   languageName: node
   linkType: hard
 
