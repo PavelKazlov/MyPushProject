@@ -6,6 +6,10 @@
       "eas": {
         "projectId": "b769d20f-dc20-4fc2-b987-bbbed0a03801"
       }
+    },
+    "android": {
+      "package": "com.mypushproject",
+      "googleServicesFile": "./android/app/google-services.json"
     }
   }
 }

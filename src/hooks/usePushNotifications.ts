@@ -50,6 +50,7 @@ export const usePushNotifications = (): PushNotificationState => {
       token = await Notifications.getExpoPushTokenAsync({
         projectId: Constants.expoConfig?.extra?.eas.projectId,
       });
+      console.log('[t] token', token);
     } else {
       Alert.alert('Must be using a physical device for Push notifications');
     }
@@ -73,12 +74,13 @@ export const usePushNotifications = (): PushNotificationState => {
 
     notificationListener.current =
       Notifications.addNotificationReceivedListener(notification => {
+        console.log('[t] notification =>', notification);
         setNotification(notification);
       });
 
     responseListener.current =
       Notifications.addNotificationResponseReceivedListener(response => {
-        console.log(response);
+        console.log('[t] response =>', response);
       });
 
     return () => {
